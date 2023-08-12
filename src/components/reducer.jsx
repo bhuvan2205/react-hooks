@@ -15,7 +15,7 @@ function reducer(state, action) {
 const Reducer = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
   return (
-    <div className="flex items-center justify-between my-20 w-full">
+    <div className="flex items-center justify-between my-20 w-full min-h-[30vh]">
       <div className="flex items-center">
         <button
           className="btn btn-primary cursor-pointer"
