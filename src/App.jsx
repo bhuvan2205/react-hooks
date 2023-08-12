@@ -7,7 +7,7 @@ import Reducer from "./components/Reducer";
 import Ref from "./components/Ref";
 import State from "./components/State";
 import Todo from "./components/Todo";
-import { useDarkTheme } from "./context/theme";
+import useDarkTheme from "./hooks/useDarkTheme";
 
 const App = () => {
   const darkTheme = useDarkTheme();

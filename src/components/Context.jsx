@@ -1,4 +1,5 @@
-import { useDarkTheme, useUpdateDarkTheme } from "../context/theme";
+import useDarkTheme from "../hooks/useDarkTheme";
+import { useUpdateDarkTheme } from "../hooks/useUpdateDarkTheme";
 
 const Context = () => {
   const darkTheme = useDarkTheme();

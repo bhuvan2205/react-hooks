@@ -1,6 +1,7 @@
 import { useCallback, useState } from "react";
 import List from "./List";
-import { useDarkTheme, useUpdateDarkTheme } from "../context/theme";
+import useDarkTheme from "../hooks/useDarkTheme";
+import { useUpdateDarkTheme } from "../hooks/useUpdateDarkTheme";
 
 const Callback = () => {
   const darkTheme = useDarkTheme();

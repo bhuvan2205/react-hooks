@@ -1,15 +1,7 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 
 export const ThemeContext = createContext();
 export const ThemeUpdateContext = createContext();
-
-export const useDarkTheme = () => {
-  return useContext(ThemeContext);
-};
-
-export const useUpdateDarkTheme = () => {
-  return useContext(ThemeUpdateContext);
-};
 
 // eslint-disable-next-line react/prop-types
 const ThemeProvider = ({ children }) => {
