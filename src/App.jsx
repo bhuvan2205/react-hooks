@@ -1,5 +1,6 @@
 import Callback from "./components/Callback";
 import Context from "./components/Context";
+import CustomHook from "./components/CustomHook";
 import Memo from "./components/Memo";
 import Navbar from "./components/Navbar";
 import Reducer from "./components/Reducer";
@@ -22,6 +23,7 @@ const App = () => {
         <Reducer />
         <Todo />
         <Callback />
+        <CustomHook />
       </div>
     </div>
   );

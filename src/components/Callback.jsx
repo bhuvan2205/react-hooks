@@ -12,7 +12,7 @@ const Callback = () => {
     return [num, num + 1, num + 2];
   }, [num]);
   return (
-    <div>
+    <>
       <div className="flex items-center justify-between my-20 w-full min-h-[30vh">
         <div>
           <h1 className="text-2xl font-bold uppercase">Use Callback</h1>
@@ -31,7 +31,7 @@ const Callback = () => {
           <List nums={getNums} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
