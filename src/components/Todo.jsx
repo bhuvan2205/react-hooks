@@ -38,7 +38,7 @@ const Todo = () => {
     <div className="flex items-center justify-between my-20 w-full min-h-[30vh]">
       <div>
         <h1 className="text-2xl font-bold uppercase">
-          TODO <br />
+          TODO using<br />
           Use Reducer
         </h1>
       </div>

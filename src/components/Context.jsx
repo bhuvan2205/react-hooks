@@ -2,7 +2,6 @@ import { useDarkTheme, useUpdateDarkTheme } from "../context/theme";
 
 const Context = () => {
   const darkTheme = useDarkTheme();
-  console.log({ darkTheme });
 
   const toggleTheme = useUpdateDarkTheme();
   const btStyles = `btn ${darkTheme == true ? "btn-secondary" : "btn-primary"}`;
