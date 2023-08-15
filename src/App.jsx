@@ -2,6 +2,7 @@ import Callback from "./components/Callback";
 import Context from "./components/Context";
 import CustomHook from "./components/CustomHook";
 import DefferedValue from "./components/DefferedValue";
+import Id from "./components/Id";
 import MeasureBox from "./components/LayoutEffect";
 import Memo from "./components/Memo";
 import Navbar from "./components/Navbar";
@@ -9,6 +10,7 @@ import Reducer from "./components/Reducer";
 import Ref from "./components/Ref";
 import State from "./components/State";
 import Todo from "./components/Todo";
+import Transition from "./components/Transition";
 import useDarkTheme from "./hooks/useDarkTheme";
 
 const App = () => {
@@ -28,6 +30,8 @@ const App = () => {
         <CustomHook />
         <MeasureBox />
         <DefferedValue />
+        <Id />
+        <Transition />
       </div>
     </div>
   );
