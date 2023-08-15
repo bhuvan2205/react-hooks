@@ -4,6 +4,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 To install the packages run "npm i"
 
-To run the application in local run "npm run dev"
+To run the application in local run "npm run develop"
 
-To build the css run "npm run build_css"
