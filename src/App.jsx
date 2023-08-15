@@ -1,6 +1,8 @@
 import Callback from "./components/Callback";
 import Context from "./components/Context";
 import CustomHook from "./components/CustomHook";
+import DefferedValue from "./components/DefferedValue";
+import MeasureBox from "./components/LayoutEffect";
 import Memo from "./components/Memo";
 import Navbar from "./components/Navbar";
 import Reducer from "./components/Reducer";
@@ -24,6 +26,8 @@ const App = () => {
         <Todo />
         <Callback />
         <CustomHook />
+        <MeasureBox />
+        <DefferedValue />
       </div>
     </div>
   );

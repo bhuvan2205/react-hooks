@@ -4,7 +4,7 @@ const CustomHook = () => {
   const [name, setName] = useLocalStorage("name", "");
   return (
     <>
-      <div className="flex items-center justify-between my-20 w-full min-h-[30vh">
+      <div className="flex items-center justify-between my-20 w-full min-h-[30vh]">
         <div>
           <input
             type="text"
